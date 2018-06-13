@@ -5,6 +5,7 @@ body{
   background-color: black;
   opacity: 0.9px;
   margin-top: 0px;
+
 }
 
 header{
@@ -41,13 +42,15 @@ a{
 
 .mission{
   margin-top: 0px;
-  margin-left: 56px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   background-image: url(../images/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
   justify-content: center;
   text-align: center;
+
 }
 
 .text, .missiontitle, h4{
@@ -95,7 +98,8 @@ p{
   background-size: cover;
   width: 1200px;
   height: 500px;
-  margin-left: 56px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title3{
@@ -130,4 +134,14 @@ p{
 .bayside h3,
 .oakdale h3{
   margin-top: 5px;
+}
+
+.contact{
+  text-align: center;
+  height: 200px;
+}
+
+.footer{
+  text-align: left;
+  margin-left: 20px;
 }
